@@ -17,7 +17,7 @@ export default NextAuth({
   //   signingKey: process.env.SIGNING_KEY
   // },
   callbacks: {
-    async  session(session) {
+    async session(session) {
      try {
       const userActiveSubscription = await fauna.query(
         q.Get(
@@ -44,12 +44,12 @@ export default NextAuth({
 
       return {
         ...session,
-        activeSubscription: userActiveSubscription
+        activeSubscription: userActiveSubscription,
       };
      } catch {
       return {
         ...session,
-        activeSubscription: null
+        activeSubscription: null,
       };
      }
     },
