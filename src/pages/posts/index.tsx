@@ -6,7 +6,7 @@ import { RichText } from 'prismic-dom';
 import styles from './styles.module.scss'
 import Link from 'next/link';
 
-interface Post {
+type Post = {
   slug: string,
   title: string,
   excerpt: string,
