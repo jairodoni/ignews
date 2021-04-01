@@ -6,12 +6,17 @@ import { ActiveLink } from '../ActiveLink';
 
 
 export function Header() {
-  const { asPath } = useRouter();
+  const router = useRouter();
+  
+  function handleGoHome(){
+    router.push(`/`)
+  }
 
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <img src="/images/logo.svg" alt="ig.news"/>
+        <img src="/images/logo.svg" alt="ig.news" onClick={handleGoHome}>
+        </img>
         <nav>
           <ActiveLink activeClassName={styles.active} href="/">
             <a>Home</a>
