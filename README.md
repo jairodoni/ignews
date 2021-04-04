@@ -1,34 +1,234 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div 
+  align="center"
+  style="
+    background: #29292e;
+    border-radius: 1.5rem;
+    display: flex;
+    alight-itens:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 60px;
+    margin: 10px 20px;
+    border: 2px solid #444444;
+  ">
+  
+  <h1 align="center">
+      <img alt="ignews" title="ignews" src=".github/logo.svg" width="352px" />
+  </h1>
+  
+  ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
+  
+</div>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
+<p align="center">
+ <a href="#-projeto"><strong/><h3/>Projeto</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-como-executar-o-projeto">Executando</a> •
+ <a href="#-referencias">Referências</a> •
+ <a href="#-author">Autor</a> 
+</p>
+
+<p align="center">
+  <img alt="moveit" src=".github/ignews.png" width="100%">
+</p>
+</div>
+
+
+---
+
+## **💻 Projeto**
+
+Ignews é um blog de tecnologia voltado a programação, com serviço pago mensal, com intenção de manter as pessoas antenadas nas atualidades e recursos que temos atualmente para deselvolvimento de softwares mais eficientes.
+
+---
+
+## **🔖 Layout**
+
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/PwkMoMxksroWkOkEXCn7OU/ig.news). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
+
+#### **Web**
+  <div style="
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;"
+  >
+    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen01.png" width="100%">
+    <img  style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen02.png" width="100%">
+    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen03.png" width="100%">
+    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen04.png" width="100%">
+  <div>
+
+---
+
+## **:computer: Tecnologias**
+
+
+ #### **Website** ([React][react])
+ 
+  - **[Typescript][typescript]**
+  - **[Next.js][next_docs]**
+  - **[Next Auth][next_auth]**
+  - **[GitHub OAuth][github_oauth]**
+  - **[FaunaDB][faunadb]**
+  - **[Stripe][stripe]**
+  - **[Prismic CMS][prismic]**
+   
+> \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
+
+ #### **Utilitários**
+ 
+  - Editor: **[Visual Studio Code][vscode]**
+ - Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
+
+---
+
+##  **🚀 Como executar o projeto**
+
+### Configurações Iniciais
+
+Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
+
+Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[asdf]</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
+
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
+
+Após ter o **Node** instalado, instale as dependências do **React** de forma global, utilizando os comandos:
+
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+
+```sh
+$ npm install
+
+# ou
+$ yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Veja a parte de **scripts {}** do arquivo <kbd>[package.json](./package.json)</kbd> para saber quais scripts estão disponíveis.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Executando o WebSite
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+# Executando o website no modo de desenvolvimento:
+$ npm run dev
 
-## Learn More
+    OU
 
-To learn more about Next.js, take a look at the following resources:
+# Executando o website no modo de desenvolvimento:
+$ yarn dev
+```
+> Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Configuraçoes de Ambiente
 
-## Deploy on Vercel
+Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambiente, 2 chaves do github oauth, 1 chave na sua conta do FaunaDB para e 2 chaves na sua conta do PrismicCMS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Veja o exemplo de arquivo de configurações de ambiente <kbd>[.env.local](./env.local.example)</kbd> para se orientar melhor sobre quais chaves devem ser configuradas para o ambiente.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+---
+
+## **:books: Referências**
+
+- [Blog Rocketseat](https://blog.rocketseat.com.br/)
+- [Rocketseat](https://app.rocketseat.com.br/)
+- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Next.js](https://nextjs.org)
+- [Node.js](https://nodejs.org/en/)
+
+## **👨‍🚀 Autor**
+
+<a href="https://github.com/jairodoni">
+ <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Bruno Henrique Saibert"/>
+ <br />
+ <sub><b>Jairo Doni Prudente Junior</b></sub></a>
+ <br />
+
+👋 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
+
+## **:memo: Licença**
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+
+<!-- Website Links -->
+
+[rocketseat_site]: https://rocketseat.com.br/
+
+<!-- Badges -->
+
+[repository_license_badge]: https://img.shields.io/github/license/JairoDoni/NLW-1.0
+
+[web_react_badge]: https://img.shields.io/badge/web-react-blue
+
+[typescript]: https://img.shields.io/badge/types-Typescript-blue
+
+[next]: https://img.shields.io/badge/ReactJS-Next.js-lightgrey
+
+[next_docs]: https://nextjs.org
+
+[next_auth]: https://next-auth.js.org
+
+[stripe]: https://stripe.com/docs
+
+[faunadb]: https://fauna.com
+
+[prismic]: https://prismic.io
+
+[github_oauth]: https://docs.github.com/pt/developers/apps/authorizing-oauth-apps
+
+<!-- Techs -->
+
+[react]: https://reactjs.org/
+
+[node]: https://nodejs.org/en/
+
+[vscode]: https://code.visualstudio.com/
+
+[react_native]: http://www.reactnative.com/
+
+[stackedit]: https://stackedit.io
+
+[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+[markdown_emoji]: https://gist.github.com/rxaviers/7360908
+
+[commitlint]: https://github.com/conventional-changelog/commitlint
+
+[feather_icons]: https://feathericons.com/
+
+[next]: https://nextjs.org/
+
+[typescript]: https://www.typescriptlang.org/
+
+[axios]: https://github.com/axios/axios
+
+[dotenv]: https://github.com/motdotla/dotenv
+
+[expo]: https://expo.io/
+
+[expo_google_fonts]: https://github.com/expo/google-fonts
+
+[react_navigation]: https://reactnavigation.org/
+
+[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
+
+[supertest]: https://github.com/visionmedia/supertest
+
+[cross_env]: https://github.com/kentcdodds/cross-env
+
+[asdf]: https://github.com/asdf-vm/asdf
+
+[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
+
+
