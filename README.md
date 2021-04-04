@@ -27,7 +27,7 @@
 <p align="center">
  <a href="#-projeto"><strong/><h3/>Projeto</a> •
  <a href="#-layout">Layout</a> •
- <a href="#-tecnologias">Tecnologias</a> •
+ <a href="#-:computer:_tecnologias">Tecnologias</a> •
  <a href="#-como-executar-o-projeto">Executando</a> •
  <a href="#-referencias">Referências</a> •
  <a href="#-author">Autor</a> 
@@ -72,7 +72,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 ---
 
-## **:computer:Tecnologias**
+## **:computer: Tecnologias**
 
 
  #### **Website** ([React][react])
