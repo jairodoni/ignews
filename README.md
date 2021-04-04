@@ -47,7 +47,7 @@ Ignews é um blog de tecnologia voltado a programação, com serviço pago mensa
 
 ---
 
-## **🔖 Layout**
+## ** 🔖 Layout **
 
 Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/PwkMoMxksroWkOkEXCn7OU/ig.news). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
@@ -72,7 +72,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 ---
 
-## :computer: **Tecnologias**
+## ** :computer: Tecnologias**
 
 
  #### **Website** ([React][react])
