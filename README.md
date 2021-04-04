@@ -72,7 +72,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 ---
 
-## **:computer: Tecnologias**
+## :computer: **Tecnologias**
 
 
  #### **Website** ([React][react])
