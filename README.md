@@ -72,7 +72,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 ---
 
-## **:computer: Tecnologias**
+## **💻 Tecnologias**
 
 
  #### **Website** ([React][react])
@@ -142,7 +142,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ---
 
-## **:books: Referências**
+## **📚 Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [Rocketseat](https://app.rocketseat.com.br/)
@@ -163,7 +163,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
 
-## **:memo: Licença**
+## **📝 Licença**
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
