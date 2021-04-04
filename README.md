@@ -152,7 +152,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ---
 
-## **👨‍🚀 Autor**
+## **Autor**
 
 <a href="https://github.com/jairodoni">
  <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Bruno Henrique Saibert"/>
