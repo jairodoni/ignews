@@ -25,11 +25,11 @@
 <br>
 
 <p align="center">
- <a href="#-projeto"><strong/><h3/>Projeto</a> •
- <a href="#-layout">Layout</a> •
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-como-executar-o-projeto">Executando</a> •
- <a href="#-referencias">Referências</a> •
+ <a href="#-projeto"><strong/><h3/>Projeto</a> |
+ <a href="#-layout">Layout</a> |
+ <a href="#-tecnologias">Tecnologias</a> |
+ <a href="#-como-executar-o-projeto">Executando</a> |
+ <a href="#-referencias">Referências</a> |
  <a href="#-author">Autor</a> 
 </p>
 
