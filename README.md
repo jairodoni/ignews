@@ -131,7 +131,7 @@ $ yarn dev
 ```
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
----
+
 
 ### Configuraçoes de Ambiente
 
@@ -142,7 +142,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ---
 
-## 📚 **Referências**
+## **📚 Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [Rocketseat](https://app.rocketseat.com.br/)
@@ -150,7 +150,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 - [Next.js](https://nextjs.org)
 - [Node.js](https://nodejs.org/en/)
 
----
+
 
 ## **👨‍🚀 Autor**
 
@@ -165,7 +165,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
 
----
+
 
 ## **📝 Licença**
 
