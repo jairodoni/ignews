@@ -52,16 +52,24 @@ Ignews é um blog de tecnologia voltado a programação, com serviço pago mensa
 Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/PwkMoMxksroWkOkEXCn7OU/ig.news). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
 #### **Web**
-  <div style="
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;"
-  >
-    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen01.png" width="100%">
-    <img  style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen02.png" width="100%">
-    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen03.png" width="100%">
-    <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen04.png" width="100%">
-  <div>
+  <table>
+    <tr style="border: 0;">
+      <td style="border: 0;">
+        <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen01.png" width="100%">
+      </td>
+      <td style="border: 0;">
+        <img  style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen02.png" width="100%">
+      </td>
+    </tr>
+    <tr style="border: 0;">
+      <td style="border: 0;"> 
+        <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen03.png" width="100%">
+      </td>
+      <td style="border: 0;">
+        <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen04.png" width="100%">
+      </td>
+    </tr>
+  </table>
 
 ---
 
