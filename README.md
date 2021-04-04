@@ -137,7 +137,7 @@ $ yarn dev
 
 Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambiente, 2 chaves do github oauth, 1 chave na sua conta do FaunaDB para e 2 chaves na sua conta do PrismicCMS.
 
-> Veja o exemplo de arquivo de configurações de ambiente <kbd>[.env.local.example.txt](./env.local.example)</kbd> para se orientar melhor sobre quais chaves devem ser configuradas para o ambiente.
+> Veja o exemplo de arquivo de configurações de ambiente <kbd>[.env.local.example.txt](./.env.local.example.txt)</kbd> para se orientar melhor sobre quais chaves devem ser configuradas para o ambiente.
 
 
 ---
