@@ -30,7 +30,7 @@
  <a href="#-tecnologias">Tecnologias</a> |
  <a href="#-como-executar-o-projeto">Executando</a> |
  <a href="#-referências">Referências</a> |
- <a href="#-author">Autor</a> 
+ <a href="#-autor">Autor</a> 
 </p>
 
 <p align="center">
