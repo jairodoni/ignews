@@ -24,17 +24,38 @@
 
 <br>
 
+
 <p align="center">
- <a href="#-projeto"><strong/><h3/>Projeto</a> |
- <a href="#-layout">Layout</a> |
- <a href="#-tecnologias">Tecnologias</a> |
- <a href="#-como-executar-o-projeto">Executando</a> |
- <a href="#-referências">Referências</a> |
- <a href="#-autor">Autor</a> 
+  <strong>
+      <a href="#-projeto">Projeto</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-layout">Layout</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-tecnologias">Tecnologias</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-tecnologias">Tecnologias</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-como-executar-o-projeto">Executando</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-referências">Referências</a> &nbsp;|&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-autor">Autor</a> 
+  </strong>
 </p>
 
 <p align="center">
-  <img alt="moveit" src=".github/ignews.png" width="100%">
+  <img alt="ignews" src=".github/todo.png" width="100%">
+</p>
+</div>
+
+<p align="center">
+  <img alt="ignews" src=".github/ignews.png" width="100%">
 </p>
 </div>
 
