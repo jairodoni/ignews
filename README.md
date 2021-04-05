@@ -29,7 +29,7 @@
  <a href="#-layout">Layout</a> |
  <a href="#-tecnologias">Tecnologias</a> |
  <a href="#-como-executar-o-projeto">Executando</a> |
- <a href="#-referencias">Referências</a> |
+ <a href="#-referências">Referências</a> |
  <a href="#-author">Autor</a> 
 </p>
 
@@ -142,7 +142,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ---
 
-## **Referências**
+## **📚 Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [Rocketseat](https://app.rocketseat.com.br/)
