@@ -50,11 +50,6 @@
 </p>
 
 <p align="center">
-  <img alt="ignews" src=".github/todo.png" width="100%">
-</p>
-</div>
-
-<p align="center">
   <img alt="ignews" src=".github/ignews.png" width="100%">
 </p>
 </div>
