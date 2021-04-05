@@ -142,7 +142,7 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ---
 
-## **📚 Referências**
+## **Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [Rocketseat](https://app.rocketseat.com.br/)
