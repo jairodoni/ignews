@@ -16,7 +16,7 @@
       <img alt="ignews" title="ignews" src=".github/logo.svg" width="352px" />
   </h1>
   
-  ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
+  ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript_shields] ![Next][next_shields]
   
 </div>
 
@@ -94,12 +94,13 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
  #### **Website** ([React][react])
  
   - **[Typescript][typescript]**
-  - **[Next.js][next_docs]**
+  - **[Next.js][next]**
   - **[Next Auth][next_auth]**
   - **[GitHub OAuth][github_oauth]**
   - **[FaunaDB][faunadb]**
   - **[Stripe][stripe]**
   - **[Prismic CMS][prismic]**
+  - **[Axios][]**
    
 > \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
@@ -160,21 +161,24 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 
 ## **📚 Referências**
 
-- [Blog Rocketseat](https://blog.rocketseat.com.br/)
-- [Rocketseat](https://app.rocketseat.com.br/)
-- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
-- [Next.js](https://nextjs.org)
-- [Node.js](https://nodejs.org/en/)
+- [Blog Rocketseat][rocketseat_blog]
+- [Rocketseat][rocketseat_plataforma]
+- [ReactJS][react_doc] | [ReactJS pt-BR][react_doc_ptbr]
+- [Next.js][next]
+- [Node.js][node]
 
 
 
 ## **👨‍🚀 Autor**
 
 <a href="https://github.com/jairodoni">
- <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Bruno Henrique Saibert"/>
- <br />
- <sub><b>Jairo Doni Prudente Junior</b></sub></a>
- <br />
+ <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Jairo Doni Prudente Junior"/>
+  <br />
+  <sub>
+    <b>Jairo Doni Prudente Junior</b>
+  </sub>
+</a>
+<br />
 
 👋 Entre em contato!
 
@@ -188,7 +192,11 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 
-<!-- Website Links -->
+<!-- Referencias -->
+
+[rocketseat_blog]: https://blog.rocketseat.com.br/
+
+[rocketseat_plataforma]: https://app.rocketseat.com.br/
 
 [rocketseat_site]: https://rocketseat.com.br/
 
@@ -198,11 +206,22 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [web_react_badge]: https://img.shields.io/badge/web-react-blue
 
-[typescript]: https://img.shields.io/badge/types-Typescript-blue
+[typescript_shields]: https://img.shields.io/badge/types-Typescript-blue
 
-[next]: https://img.shields.io/badge/ReactJS-Next.js-lightgrey
+[next_shields]: https://img.shields.io/badge/vercel-Next.js-lightgrey
 
-[next_docs]: https://nextjs.org
+
+<!-- Techs -->
+
+[react]: https://reactjs.org/
+
+[react_doc]: https://reactjs.org/docs/getting-started.html
+
+[react_doc_ptbr]: https://pt-br.reactjs.org/docs/getting-started.html
+
+[node]: https://nodejs.org/en/
+
+[vscode]: https://code.visualstudio.com/
 
 [next_auth]: https://next-auth.js.org
 
@@ -214,48 +233,19 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [github_oauth]: https://docs.github.com/pt/developers/apps/authorizing-oauth-apps
 
-<!-- Techs -->
-
-[react]: https://reactjs.org/
-
-[node]: https://nodejs.org/en/
-
-[vscode]: https://code.visualstudio.com/
-
-[react_native]: http://www.reactnative.com/
-
-[stackedit]: https://stackedit.io
-
-[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
-
-[markdown_emoji]: https://gist.github.com/rxaviers/7360908
-
-[commitlint]: https://github.com/conventional-changelog/commitlint
-
-[feather_icons]: https://feathericons.com/
-
 [next]: https://nextjs.org/
 
 [typescript]: https://www.typescriptlang.org/
 
 [axios]: https://github.com/axios/axios
 
-[dotenv]: https://github.com/motdotla/dotenv
-
-[expo]: https://expo.io/
-
-[expo_google_fonts]: https://github.com/expo/google-fonts
-
-[react_navigation]: https://reactnavigation.org/
-
-[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
-
-[supertest]: https://github.com/visionmedia/supertest
-
-[cross_env]: https://github.com/kentcdodds/cross-env
-
 [asdf]: https://github.com/asdf-vm/asdf
 
 [yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
+
+[stackedit]: https://stackedit.io
+
+[markdown_emoji]: https://gist.github.com/rxaviers/7360908
+
 
 
