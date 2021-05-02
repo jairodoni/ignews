@@ -46,6 +46,10 @@
   </strong>
 </p>
 
+  <h4 align="center"> 
+	🚧  Ig.news 🚀 Em construção...  🚧
+  </h4>
+
 <p align="center">
   <img alt="ignews" src=".github/ignews.png" width="100%">
 </p>
@@ -57,6 +61,15 @@
 ## **💻 Projeto**
 
 Ignews é um blog de tecnologia voltado a programação, com serviço pago mensal, com intenção de manter as pessoas antenadas nas atualidades e recursos que temos atualmente para deselvolvimento de softwares mais eficientes.
+
+#### Features
+
+- [x] Login com Github mais cadastro do usuário no banco.
+- [x] Acesso aos artigos completos para membros assinantes.
+- [x] Acesso a uma prévia dos artigos aos membros não assinantes.
+- [x] Ativação de assinatura com plano mensal (integração com [FaunaDB][faunadb] e [Stripe][stripe]).
+- [ ] Desativação de assinatura com plano mensal
+- [ ] Tela de Perfil. 
 
 ---
 
