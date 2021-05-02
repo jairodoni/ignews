@@ -62,7 +62,7 @@
 
 Ignews é um blog de tecnologia voltado a programação, com serviço pago mensal, com intenção de manter as pessoas antenadas nas atualidades e recursos que temos atualmente para deselvolvimento de softwares mais eficientes.
 
-#### Features
+#### Features:
 
 - [x] Login com Github mais cadastro do usuário no banco.
 - [x] Acesso aos artigos completos para membros assinantes.
