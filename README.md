@@ -119,7 +119,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
   - **[FaunaDB][faunadb]**
   - **[Stripe][stripe]**
   - **[Prismic CMS][prismic]**
-  - **[Axios][]**
+  - **[Axios][axios]**
    
 > \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
