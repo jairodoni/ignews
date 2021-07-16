@@ -32,9 +32,9 @@ export default function Post({ post }: PostProps) {
            pois pode permitir roubo de dados dos cookies.  */}
           {/* Como aqui esta sendo usado somente para o prismic,
            o prismic assegura o uso dele evitando isso. */}
-          <div 
+          <div
             className={styles.postContent}
-            dangerouslySetInnerHTML={{ __html: post.content }} 
+            dangerouslySetInnerHTML={{ __html: post.content }}
           />
         </article>
       </main>
@@ -42,19 +42,19 @@ export default function Post({ post }: PostProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps  = async ({ req, params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
   const session = await getSession({ req });
   const { slug } = params;
 
   if (!session?.activeSubscription) {
-    return { 
+    return {
       redirect: {
-        destination: `/posts/preview/${slug}`,
+        destination: `/`,
         permanent: false,
       }
     }
   }
-  
+
 
   const prismic = getPrismicClient(req);
 
@@ -78,5 +78,5 @@ export const getServerSideProps: GetServerSideProps  = async ({ req, params }) =
       post,
     }
   }
-  
+
 }

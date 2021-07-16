@@ -4,17 +4,13 @@ import { api } from '../../services/api';
 import { getStripeJs } from '../../services/stripe-js';
 import styles from './styles.module.scss'
 
-interface SubscribeButtonProps {
-  priceId: string;
-}
-
-export function SubscribeButton({ priceId }: SubscribeButtonProps) {
+export function SubscribeButton() {
   const [session] = useSession();
 
   const router = useRouter();
 
   async function handleSubscribe() {
-    if(!session){
+    if (!session) {
       signIn('github');
       return;
     }
@@ -23,7 +19,7 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
       router.push('/posts')
       return;
     }
-    
+
     // criação da checkout session
     try {
       const response = await api.post('/subscribe')
@@ -37,12 +33,12 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
       alert(error.message);
     }
   }
-  
+
   return (
     <button
-    type="button"
-    className={styles.subscribeButton}
-    onClick={handleSubscribe}
+      type="button"
+      className={styles.subscribeButton}
+      onClick={handleSubscribe}
     >
       Subscribe now
     </button>

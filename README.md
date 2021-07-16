@@ -19,6 +19,7 @@
   
   
   [![Licence](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE.md)  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="Next JS" src="https://img.shields.io/badge/nextjs-%23000000.svg?&style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img alt="Jest" src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"/>
   
   
   
@@ -29,7 +30,6 @@
 <div align="center">
 
 <br>
-
 
 <p align="center">
   <strong>
@@ -61,7 +61,6 @@
 </p>
 </div>
 
-
 ---
 
 ## **💻 Projeto**
@@ -75,7 +74,7 @@ Ignews é um blog de tecnologia voltado a programação, com serviço pago mensa
 - [x] Acesso a uma prévia dos artigos aos membros não assinantes.
 - [x] Ativação de assinatura com plano mensal (integração com [FaunaDB][faunadb] e [Stripe][stripe]).
 - [ ] Desativação de assinatura com plano mensal
-- [ ] Tela de Perfil. 
+- [ ] Tela de Perfil.
 
 ---
 
@@ -85,11 +84,7 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 #### **Web**
 
-  <div style="
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;"
-  >
+  <div>
     <img style="border-radius: 0.5rem;" alt="telasWeb" src=".github/screen01.png" width="100%">
     <br/>
     <br/>
@@ -109,32 +104,32 @@ Você pode visualizar o layout do projeto no formato através [desse link](https
 
 ## **💻 Tecnologias**
 
+#### **Website** ([React][react])
 
- #### **Website** ([React][react])
- 
-  - **[Typescript][typescript]**
-  - **[Next.js][next]**
-  - **[Next Auth][next_auth]**
-  - **[GitHub OAuth][github_oauth]**
-  - **[FaunaDB][faunadb]**
-  - **[Stripe][stripe]**
-  - **[Prismic CMS][prismic]**
-  - **[Axios][axios]**
-   
+- **[Typescript][typescript]**
+- **[Next.js][next]**
+- **[Next Auth][next_auth]**
+- **[GitHub OAuth][github_oauth]**
+- **[FaunaDB][faunadb]**
+- **[Stripe][stripe]**
+- **[Prismic CMS][prismic]**
+- **[Axios][axios]**
+- **[Jest][jest]**
+
 > \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
- #### **Utilitários**
- 
-  - Editor: **[Visual Studio Code][vscode]**
- - Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
+#### **Utilitários**
+
+- Editor: **[Visual Studio Code][vscode]**
+- Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
 
 ---
 
-##  **🚀 Como executar o projeto**
+## **🚀 Como executar o projeto**
 
 ### Configurações Iniciais
 
-Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
+Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina.
 
 Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[asdf]</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
 
@@ -145,14 +140,16 @@ Após ter o **Node** instalado, instale as dependências do **React** de forma g
 Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
 ```sh
+# Instalando Dependencias:
+
 $ npm install
 
-# ou
+# OU
+
 $ yarn
 ```
 
 > Veja a parte de **scripts {}** do arquivo <kbd>[package.json](./package.json)</kbd> para saber quais scripts estão disponíveis.
-
 
 ### Executando o WebSite
 
@@ -160,21 +157,29 @@ $ yarn
 # Executando o website no modo de desenvolvimento:
 $ npm run dev
 
-    OU
+#    OU
 
 # Executando o website no modo de desenvolvimento:
 $ yarn dev
 ```
+
 > Se o browser não abrir automaticamente, acesse: http://localhost:3000.
 
+### Executando os Testes
 
+```sh
+# Executando os testes com npm:
+$ npm run test
+
+# Executando os testes com yarn:
+$ yarn test
+```
 
 ### Configuraçoes de Ambiente
 
 Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambiente, 2 chaves do github oauth, 1 chave na sua conta do FaunaDB para e 2 chaves na sua conta do PrismicCMS.
 
 > Veja o exemplo de arquivo de configurações de ambiente <kbd>[.env.local.example.txt](./.env.local.example.txt)</kbd> para se orientar melhor sobre quais chaves devem ser configuradas para o ambiente.
-
 
 ---
 
@@ -185,8 +190,6 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 - [ReactJS][react_doc] | [ReactJS pt-BR][react_doc_ptbr]
 - [Next.js][next]
 - [Node.js][node]
-
-
 
 ## **👨‍🚀 Autor**
 
@@ -204,67 +207,40 @@ Você deve procurar 3 chaves na sua conta do Stripe para as variaveis de ambient
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
 
-
-
 ## **📝 Licença**
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-
 <!-- Referencias -->
 
 [rocketseat_blog]: https://blog.rocketseat.com.br/
-
 [rocketseat_plataforma]: https://app.rocketseat.com.br/
-
 [rocketseat_site]: https://rocketseat.com.br/
 
 <!-- Badges -->
 
 [repository_license_badge]: https://img.shields.io/github/license/JairoDoni/NLW-1.0
-
 [web_react_badge]: https://img.shields.io/badge/web-react-blue
-
 [typescript_shields]: https://img.shields.io/badge/types-Typescript-blue
-
 [next_shields]: https://img.shields.io/badge/vercel-Next.js-lightgrey
-
 
 <!-- Techs -->
 
 [react]: https://reactjs.org/
-
 [react_doc]: https://reactjs.org/docs/getting-started.html
-
 [react_doc_ptbr]: https://pt-br.reactjs.org/docs/getting-started.html
-
 [node]: https://nodejs.org/en/
-
 [vscode]: https://code.visualstudio.com/
-
 [next_auth]: https://next-auth.js.org
-
 [stripe]: https://stripe.com/docs
-
 [faunadb]: https://fauna.com
-
 [prismic]: https://prismic.io
-
 [github_oauth]: https://docs.github.com/pt/developers/apps/authorizing-oauth-apps
-
 [next]: https://nextjs.org/
-
 [typescript]: https://www.typescriptlang.org/
-
 [axios]: https://github.com/axios/axios
-
+[jest]: https://jestjs.io/pt-BR/
 [asdf]: https://github.com/asdf-vm/asdf
-
 [yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
-
 [stackedit]: https://stackedit.io
-
 [markdown_emoji]: https://gist.github.com/rxaviers/7360908
-
-
-
